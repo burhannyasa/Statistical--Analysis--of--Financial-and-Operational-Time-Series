@@ -13,19 +13,12 @@ Projede kullanılan veri setleri ve uygulanan teknikler şunlardır:
 - **Kullanılan Yöntemler:** Sabit Esaslı Endeks, Zincirleme (Bileşik) Esaslı Endeks hesaplamaları.
 - **Veri Kaynağı:** `quantmod` paketi aracılığıyla Yahoo Finance.
 
-
-### 2. Avrupa Borsaları Karşılaştırmalı Analizi (EuStockMarkets)
-- **Amaç:** Avrupa'daki ana borsaların (DAX, SMI, CAC, FTSE) kapanış fiyatlarının trendlerinin karşılaştırılması.
-- **Kullanılan Yöntemler:** Normalizasyon, Karşılaştırmalı Grafik Analizi.
-- **Veri Kaynağı:** R `datasets` paketi.
-
-### 3. Operasyonel Veri Analizi (AirPassengers)
+### 2. Operasyonel Veri Analizi (AirPassengers)
 - **Amaç:** Uluslararası havayolu yolcu sayılarındaki trend ve mevsimsel etkilerin analizi ve ARIMA/ARMA modelleri ile tahminleme.
 - **Kullanılan Yöntemler:** Çarpımsal Ayrıştırma (Multiplicative Decomposition), Durağanlaştırma (Fark alma, Log dönüşümü), ARIMA/ARMA Modellemesi.
 - **Veri Kaynağı:** R `datasets` paketi.
 
-
-### 4. Çevresel Veri Analizi (Nottem)
+### 3. Çevresel Veri Analizi (Nottem)
 - **Amaç:** Nottingham Kalesi'ndeki ortalama aylık sıcaklıkların uzun vadeli analizi.
 - **Kullanılan Yöntemler:** Toplamsal Ayrıştırma (Additive Decomposition), STL Ayrıştırma.
 - **Veri Kaynağı:** R `datasets` paketi.
@@ -36,7 +29,7 @@ Projede kullanılan veri setleri ve uygulanan teknikler şunlardır:
 
 * **Google:** Sabit esaslı indeks analizinde, hisse senedinin baz tarihine göre %100'ün üzerinde değer kazandığı, ancak zincirleme endeks ile günlük volatilite düzeyi yüksek olduğu tespit edilmiştir.
 * **AirPassengers:** ARIMA(2,1,1)(0,1,0)[12] modeli ile yapılan tahminlerde, yolcu sayısının artmaya devam edeceği ancak belirsizlik aralığının (confidence interval) uzun vadede genişlediği gözlemlenmiştir.
-* **EuStockMarkets:** Borsa trendlerinin yüksek korelasyona sahip olduğu ancak kriz dönemlerinde birbirlerinden ayrıştıkları görülmüştür.
+* **Nottem:** Sıcaklık verisinde belirgin bir yıllık mevsimsellik (sezonsallık) gözlemlenmiş olup, uzun vadeli bir trend belirlenememiştir.
 
 ---
 
@@ -48,4 +41,5 @@ Projede kullanılan veri setleri ve uygulanan teknikler şunlardır:
 - `/data`: Kullanılan veri setleri (CSV formatında).
 - `/notebooks`: Analiz kodları (Rmd - R Markdown dosyaları).
 - `/outputs`: Analizler sonucu üretilen grafikler (PNG) ve tablolar.
+- `/report`: Projenin detaylı PDF raporu.
 - `README.md`: Proje dokümantasyonu.
