@@ -40,25 +40,18 @@ Projede kullanılan veri setleri ve uygulanan teknikler şunlardır:
 
 🖼️ Analiz Görselleri 
 
-1. Google Hisse Senedi Endeks Karşılaştırması
- outputs/google_index_analysis.png
+### 1. Google Hisse Senedi Endeks Karşılaştırması
+![Google Analizi](outputs/google_index_analysis.png)
 
-Analiz: Sabit ve Bileşik Esaslı Endeks hesaplamaları.
+### 2. Avrupa Borsa Endeksleri (DAX ve FTSE)
+![DAX FTSE Karşılaştırması](outputs/eustock_dax_ftse_comparison.png)
 
-2. Avrupa Borsa Endeksleri (DAX ve FTSE)
- outputs/eustock_dax_ftse_comparison.png
 
-Analiz: Karşılaştırmalı Zaman Serisi Analizi.
+### 3. AirPassengers Mevsimsellikten Arındırılmış Seri
+![AirPassengers Analizi](outputs/airpassengers_seasonally_adjusted.png)
 
-3. AirPassengers Mevsimsellikten Arındırılmış Seri
- outputs/airpassengers_seasonally_adjusted.png
-
-Analiz: Mevsimsel Arındırma (Seasonal Adjustment).
-
-4. Nottem Toplamsal Ayrıştırma (Decomposition)
- outputs/nottem_decomposition.png
-
-Analiz: Additive Decomposition (Trend, Seasonal, Random)
+### 4. Nottem Toplamsal Ayrıştırma (Decomposition)
+![Nottem Analizi](outputs/nottem_decomposition.png)
 
 ---
 
