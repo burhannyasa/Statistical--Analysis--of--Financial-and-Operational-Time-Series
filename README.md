@@ -60,7 +60,7 @@ Analiz: Mevsimsel Arındırma (Seasonal Adjustment).
 Yorum: Hava yolu yolcu sayısındaki mevsimsel gürültü temizlenerek, serinin altındaki ana yükseliş trendi daha belirgin hale getirilmiştir.
 
 4. Nottem Toplamsal Ayrıştırma (Decomposition)
-outputs/nottem_decomposition_analysis.png
+outputs/nottem_decomposition.png
 
 Analiz: Additive Decomposition (Trend, Seasonal, Random).
 
