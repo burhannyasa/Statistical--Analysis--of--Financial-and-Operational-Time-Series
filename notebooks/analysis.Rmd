@@ -101,13 +101,14 @@ legend("topleft", legend = c("Sabit Esaslı", "Zincirleme Esaslı"),
 
 
 
+Sonuç
 
-# Sonuç
-# AirPassengers veri seti güçlü bir yukarı yönlü trend ve çarpımsal mevsimsellik göstermektedir.
+AirPassengers veri seti güçlü bir yukarı yönlü trend ve çarpımsal mevsimsellik göstermektedir.
 
-# Nottem verisi, belirgin bir uzun vadeli trend olmaksızın net bir yıllık mevsimsellik sergilemektedir.
+Nottem verisi, belirgin bir uzun vadeli trend olmaksızın net bir yıllık mevsimsellik sergilemektedir.
 
-# Google hisse senedi endeksleri, analiz edilen dönemdeki önemli piyasa dalgalanmalarını vurgulamaktadır.
+Google hisse senedi endeksleri, analiz edilen dönemdeki önemli piyasa dalgalanmalarını vurgulamaktadır.
+
 
 
 
